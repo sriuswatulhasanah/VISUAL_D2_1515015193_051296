@@ -27,6 +27,7 @@ public class Perhitungan extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -80,12 +81,16 @@ public class Perhitungan extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(tambah);
         tambah.setText("Tambah");
 
+        buttonGroup1.add(kurang);
         kurang.setText("Kurang");
 
+        buttonGroup1.add(kali);
         kali.setText("Kali");
 
+        buttonGroup1.add(bagi);
         bagi.setText("Bagi");
         bagi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -286,6 +291,7 @@ public class Perhitungan extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton bagi;
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JTextField hasil;
     private javax.swing.JButton hitung;
     private javax.swing.JButton jButton2;
