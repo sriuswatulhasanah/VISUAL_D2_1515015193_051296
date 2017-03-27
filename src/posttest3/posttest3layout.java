@@ -672,7 +672,7 @@ public class posttest3layout extends javax.swing.JFrame {
 
         String Schoolarship = jComboBox1.getSelectedItem().toString();
         String Address = jTextArea1.getText();
-        String City = jComboBox2.getSelectedItem().toString();
+         String City = jComboBox2.getSelectedItem().toString();
         String Transportation = null;
         if (jCheckBox1.isSelected())
         {
